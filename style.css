@@ -457,7 +457,7 @@ a {
     margin-left: 10px;
     width: 100%;
     max-width: 600px;
-    margin: 0 auto;
+    
 }
 
     .teach-list ul {
@@ -483,7 +483,7 @@ a {
     margin-left: 10px;
     width: 100%;
     max-width: 600px;
-    margin: 0 auto;
+
 }
 
     .talk-list ul {
@@ -501,9 +501,6 @@ a {
         font-size: 10px;
     }
 
-    .teach-list li, .talk-list li {
-        overflow-wrap: break-word;
-    }
 
 .publication {
     text-align: left;
@@ -541,11 +538,12 @@ a {
 }
 
 .pub-right {
+    width: 40%;
     flex-basis: 40%;
     max-width: 40%;
     display: flex; /* make the container a flex container */
     flex-direction: column; /* set the flex direction to column */
-    margin-right:30px;
+    margin: 0 auto;
 }
 
 .pub-header {
