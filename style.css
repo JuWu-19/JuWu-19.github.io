@@ -529,7 +529,7 @@ a {
 
 .pub-left {
     flex-basis: 60%;
-    margin-left: 0px;
+    margin-left: -20px;
     margin-top: 0px;
     max-width: 60%;
     display: flex; /* make the container a flex container */
@@ -544,6 +544,7 @@ a {
     display: flex; /* make the container a flex container */
     flex-direction: column; /* set the flex direction to column */
     margin: 0 auto;
+    margin-left: -30px;
 }
 
 .pub-header {
