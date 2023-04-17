@@ -5,6 +5,7 @@ body {
 }
 
 nav {
+    font-size: 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,7 +20,7 @@ nav {
         float: left;
         color: #333;
         text-align: center;
-        padding: 14px 16px;
+        padding: 10px 16px;
         text-decoration: none;
     }
 
@@ -63,7 +64,7 @@ body {
     width: 100px;
     height: 80px;
     margin-bottom:-20px;
-    margin-top:-50px;
+    margin-top:-38px;
 
 }
 
